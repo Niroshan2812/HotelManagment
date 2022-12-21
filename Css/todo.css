@@ -1,0 +1,132 @@
+
+
+.logo{
+  width:50px;
+  cursor: pointer;
+}
+
+
+*{
+margin:0;
+padding:0;
+font-family:verdana;
+}
+#abc{
+width:100%;
+height:100vh;
+
+background-size: cover;
+}
+nav{
+width: 100%;
+height: 50px;
+background-color: #0005;
+line-height: 50px;
+}
+nav ul{
+float: right;
+margin-right: 30px;
+}
+nav ul li{
+list-style-type: none;
+display: inline-block;
+transition: 0.7s all;
+}
+nav ul li:hover{
+background-color:#088;
+}
+nav ul li a{
+text-decoration: none;
+color: #fff;
+padding: 30px;
+}
+li{
+  color: #fff
+}
+a{
+  color: #F8F8FF
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+ td {
+  text-align: left;
+  padding: 8px;
+  color: #E0FFFF;
+
+}
+th{
+  text-align: left;
+  padding: 8px;
+  color: #728FCE;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url("https://alvarotrigo.com/blog/assets/imgs/2022-01-17/best-hotel-website-designs-examples.jpeg");
+  font-size: 16px;
+
+
+}
+.main_i1{
+  color: #fff;
+}
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #3d4855;
+}
+
+h1{
+  color: #fff;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+.container {
+  padding: 24px 0;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 4px;
+  box-shadow: 1px 1px 40px -10px #31505f30, 0px 1px 2px 0px #31505f30;
+  background: white;
+  margin-bottom: 24px;
+}
+
+.card-inner {
+  padding: 16px 24px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input {
+  border-radius: 4px;
+  background: transparent;
+  border: none;
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  border: 1px solid transparent;
+  height: 100%;
+  display: block;
+  outline: none;
+}

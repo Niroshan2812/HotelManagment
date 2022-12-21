@@ -1,0 +1,193 @@
+
+.main_window  {
+  margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+  background-image: url("https://images.unsplash.com/photo-1526786397950-a1cda63d1ab2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+
+
+}
+h1, h2{
+  line-height: 100px;
+}
+.explore_btn{
+  position: absolute;
+
+  left: 30%;
+  top: 90%;
+  width: 180px;
+  height: 50px;
+  color: #000;
+  font-size: 20px;
+  background: white;
+  border:0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+  font-family: 'Mochiy Pop P One', sans-serif;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+
+}
+.explore_btn:hover{
+  background-color: #4CAF50;
+ color: white;
+}
+
+/******************************************************** Main page classes *****************************************************/
+
+/* This one for main div class */
+.main_quouts{
+  top: 30%;
+  left: 30%;
+  position: absolute;
+  transform: translate(-50%, -20%);
+
+}
+.logo{
+  width:50px;
+  cursor: pointer;
+}
+
+
+/******************************************************** Main page Id *****************************************************/
+/***** This one for main h1 and h2 -- AYUBOWAN **/
+    #main_hed{
+      text-align: center;
+      font-size: 75px;
+      color: white;
+       text-shadow: 2px 2px 5px black;
+       font-family: 'Mochiy Pop P One', sans-serif;
+    }
+    #main_hed_2{
+      text-align: center;
+        font-size:55px;
+          color: white;
+    font-family: 'Moon Dance', cursive;
+       text-shadow: 2px 2px 5px black;
+    }
+
+    /******************************************************** nav bar *****************************************************/
+    *{
+  margin:0;
+  padding:0;
+  font-family:verdana;
+}
+#abc{
+  width:100%;
+  height:100vh;
+
+  background-size: cover;
+}
+nav{
+  width: 100%;
+  height: 50px;
+  background-color: #0005;
+  line-height: 50px;
+}
+nav ul{
+  float: right;
+  margin-right: 30px;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.7s all;
+}
+nav ul li:hover{
+  background-color:#088;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 30px;
+}
+/******************************************************** Second div *****************************************************/
+.Second_window{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url("https://images.unsplash.com/photo-1507499244229-be438d3c06d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
+
+}
+.row{
+  display: flex;
+  height: 88%;
+  align-items: center;
+
+}
+.col{
+  flex-basis: 50%;
+
+}
+.second_win_h{
+  color: #fff;
+  font-size: 100px;
+  font-family: 'Moon Dance', cursive;
+
+
+}
+.second_win_p{
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: 'Luxurious Roman', cursive;
+}
+.card{
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+
+}
+.cr1{
+  background-image: url("https://images.unsplash.com/photo-1613526949297-1aba25022d0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=903&q=80");
+
+}
+.cr2{
+  background-image: url("https://images.unsplash.com/flagged/photo-1570864960427-a1c2bcf4fb1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+
+}
+.cr3{
+  background-image: url("https://images.unsplash.com/photo-1546603999-24fbcb911bee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+
+}
+.cr4{
+  background-image: url("https://images.unsplash.com/photo-1597177586824-33bda0c29325?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+
+}
+.cr5{
+  background-image: url("https://images.unsplash.com/photo-1467579424161-6bbc141569d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+
+}
+.cr6{
+  background-image: url("https://images.unsplash.com/photo-1460036521480-ff49c08c2781?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80");
+
+}
+.card:hover{
+  transform: translateY(-10px) ;
+}
+.second_win_h5{
+  color: #fff;
+  text-shadow: 0 0 5px #999;
+}
+.second_win_Card_p{
+  color: #fff;
+  text-shadow: 0 0 15px #000;
+  font-size: 8px;
+}
